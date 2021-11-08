@@ -1,0 +1,151 @@
+/* DOCUMENT INFORMATION
+    - Document : Raiden Shogun
+    - Version : 0.0.1
+    - Author : Nakad
+*/
+
+/*
+ * GLOBAL
+ * ****** */
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 700;
+    word-spacing: 8px;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 700;
+    word-spacing: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    width: 10%;
+    background-color: #392376;
+    content: "";
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+h3 {
+    font-size: 160%;
+}
+
+p {
+    font-weight: 300;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+/*
+ * HEADER
+ * ****** */
+
+header {
+    background-image: url(../images/RaidenBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-title {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.home-title h1 {
+    font-size: 340%;
+}
+
+/*
+ * BUTTON
+ * ****** */
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: background-color 1sc color 1sc border 1sc;
+}
+
+.btn-full {
+    background: #C8ACDD;
+    margin-right: 15px;
+}
+
+.btn-ghost {
+    border: 1px solid #392376;
+}
+
+.btn-full:hover {
+    background-color: #9C94BD;
+    color: white;
+}
+
+.btn-ghost:hover {
+    background-color: #9C94BD;
+    color: white;
+    border: 1px solid #9C94BD;
+}
+
+/*
+ * SECTION
+ * ******* */
+
+.shogun {
+    margin: 20px 0
+}
+
+.shogun:hover .shogunicon {
+    transform: translate(20px);
+    color: #392376;
+    transition: all 1s;
+}
+
+.shogunimg {
+    height: auto;
+    max-width: 100%;
+}
+
+.shogunicon {
+    font-size: 34px;
+    color: #9C94BD;
+}
+
+/*
+ * OUTFIT
+ * ****** */
+
+.outfit {
+    background-color: #9C94BD;
+}
+
+.topimg {
+    height: 100%;
+    width: 100%;
+}
+
+.outfit-tab {
+    box-shadow: 0 0 10px;
+    background-color: #C8ACDD;
+}
