@@ -108,6 +108,15 @@ header {
     border: 1px solid #9C94BD;
 }
 
+.bg-nav {
+    background: rgb(155, 149, 255);
+    background: linear-gradient(90deg, rgba(155, 149, 255, 1) 0%, rgba(152, 96, 209, 1) 54%, rgba(102, 88, 117, 1) 100%);
+}
+
+#MaNavbar {
+    margin-left: 50%;
+}
+
 /*
  * SECTION
  * ******* */
@@ -215,7 +224,7 @@ cite img {
  * **** */
 
 .dons {
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
@@ -293,4 +302,25 @@ cite img {
     background-color: #9C95CF;
     color: black;
     margin-bottom: 5%
+}
+
+/*
+ * FOOTER
+ * ****** */
+
+footer {
+    background-color: #5D51A9;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border-top: solid black 1px;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #A2AFE2;
 }
