@@ -62,7 +62,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 91vh;
 }
 
 .home-title {
@@ -116,7 +116,7 @@ header {
     margin: 20px 0
 }
 
-.shogun:hover .shogunicon {
+.shogun:hover {
     transform: translate(20px);
     color: #392376;
     transition: all 1s;
@@ -148,4 +148,149 @@ header {
 .outfit-tab {
     box-shadow: 0 0 10px;
     background-color: #C8ACDD;
+}
+
+/*
+ * PHOTO GALLERY
+ * ************* */
+
+.gallery-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 5%;
+}
+
+.gallery-title {
+    position: relative;
+    top: 90%;
+    left: 2%;
+}
+
+.gallery-title h4 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px gray;
+}
+
+/* 
+ * COMMENT
+ * ******* */
+
+.user {
+    background-image: url(../images/UserBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.user h2 {
+    color: white;
+}
+
+.user blockquote {
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+}
+
+blockquote {
+    padding: 5px;
+}
+
+cite {
+    display: block;
+    margin-top: 5%;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+/*
+ * DONS
+ * **** */
+
+.dons {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.dons h3 {
+    color: #34235E;
+    font-weight: 400;
+}
+
+.dons h4 {
+    color: #9C95CF;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.dons p {
+    font-size: 80%;
+}
+
+.dons-title {
+    padding: 10px 10px 0% 10px;
+    border-bottom: #DDBDE2 solid 2px;
+}
+
+.dons-content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.dons-content ul li i {
+    font-size: 90%;
+    margin-right: 5%;
+}
+
+.dons-signup {
+    text-align: center;
+}
+
+.btn-dons {
+    background-color: #9C95CF;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.dons-premium {
+    background-color: #EAE2ED;
+}
+
+.dons-title-premium {
+    background-color: #3D2E66;
+    border-radius: 10px;
+    color: #B9A0D2;
+    text-align: center;
+}
+
+.btn-dons:hover {
+    background-color: #322E57;
+    color: #B9A0D2;
+}
+
+/* 
+ * FORM
+ * **** */
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-message {
+    width: 100%;
+}
+
+.btn-form {
+    background-color: #9C95CF;
+    color: black;
+    margin-bottom: 5%
 }
